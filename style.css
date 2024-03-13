@@ -1,0 +1,52 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cab {
+    margin: 10px;
+    padding: 10px;
+    background-color:#005ca9 ;
+}
+
+i {
+    color: white;
+    margin-left: 5px;
+    font-size: 20px
+}
+
+.cab .nav {
+    display: block;
+}
+
+.cab .nav .div_menu {
+    padding-top: 50px;
+    max-width: 250px;
+    height: 500px;
+    background-color:black ;
+    border-radius: 5px;
+
+}
+
+.cab .nav .div_menu .lista {
+       border-top-left-radius: 30px;
+}
+
+.cab .nav .div_menu .lista li {
+    padding: 15px;
+    margin: 5px;
+    list-style: none;
+    background-color: #ffff;
+    border-radius: 5px;
+    text-align: right; 
+}
+
+.cab .nav .div_menu .lista li a {
+    text-decoration: none;
+    color: #005ca9;
+    
+
+   
+}
