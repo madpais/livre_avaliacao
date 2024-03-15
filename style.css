@@ -3,10 +3,13 @@
     padding: 0px;
 }
 
+.div_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     width: 150px;
-
-
 }
 
 .topo {
@@ -20,10 +23,9 @@
 
 .cab {
     margin: 10px;
-    padding: 10px;
     background-color: #005ca9;
-    background-image: url(img/loja.png);
-    background-position: 90%;
+    background-image: url(img/loja_2.png);
+    background-position: 95%;
     background-size: 83%;
 
 
@@ -59,7 +61,7 @@
     font-size: 15px;
     list-style: none;
     background-color: #ffff;
-    border-radius: 5px;
+
     text-align: end;
 
 }
@@ -95,20 +97,20 @@ i {
     margin: 10px;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
 .div_menu_rodape {
     display: flex;
-    
+
 }
 
 
 .nav_rodape {
     display: flex;
     align-items: center;
-      
+
 }
 
 .div_menu_rodape .lista_rodape {
@@ -120,20 +122,32 @@ i {
     list-style: none;
     font-size: 15px;
     margin: 30px;
-    
+
 }
 
 
 .div_menu_rodape .lista_rodape li a {
-   
+
     text-decoration: none;
     color: white;
-    
+
 }
 
 
 
-.sociais {
-    display: flex;
-   margin-inline: 100px;
+
+.sociais a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.div_menu_rodape .lista_rodape li:hover {
+    background-color: white;
+
+}
+
+.div_menu_rodape .lista_rodape li a:hover {
+    color: black;
+
+
 }
