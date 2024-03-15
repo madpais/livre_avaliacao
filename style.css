@@ -9,7 +9,7 @@
 }
 
 .logo {
-    width: 150px;
+    width: 144px;
 }
 
 .topo {
@@ -140,6 +140,11 @@ i {
     padding: 15px;
     text-decoration: none;
 }
+
+.sociais i:hover {
+    color: white;
+}
+
 
 .div_menu_rodape .lista_rodape li:hover {
     background-color: white;
